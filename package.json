@@ -1,0 +1,24 @@
+{
+  "name": "quick-starter",
+  "version": "0.0.0",
+  "description": "Quick starter",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guillaume Rouxel for quick-starter, else Nicolas Merinian",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^1.1.2",
+    "browserify": "^6.1.0",
+    "debowerify": "^0.7.1",
+    "gulp": "^3.8.5",
+    "gulp-sass": "^2.1.1",
+    "gulp-streamify": "0.0.5",
+    "gulp-uglify": "^0.3.1",
+    "gulp-watchify": "^0.2.0",
+    "vinyl-source-stream": "^1.0.0",
+    "watchify": "^0.6.4"
+  },
+  "dependencies": {}
+}
