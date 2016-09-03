@@ -17,6 +17,16 @@ function registerArticleElement() {
 					desc.innerText = this.getAttribute('description');
 					root.appendChild(desc);
 					
+					// Date
+					var date = document.createElement('span');
+					date.innerText = this.getAttribute('date');
+					root.appendChild(date);
+					
+					// Author
+					var author = document.createElement('span');
+					author.innerText = this.getAttribute('author');
+					root.appendChild(author);
+					
 				}
 			}
 		})
